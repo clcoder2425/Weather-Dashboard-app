@@ -1,7 +1,7 @@
 # Weather-Dashboard-app
 
 ## Descriptiom
-This a weather dashboard API that run in the browser and display a 5 day weather for a choosen city.
+This is a weather dashboard API that run in the browser and display a 5 day weather minimun and maximum temperature for a choosen city.
 
 ## Table of Contents
 - [Description](#Description)
@@ -52,7 +52,7 @@ The link for the webpage is:https://65cd1a6ca4b3551e5d8e5579--carmenjportfolio.n
 - CSS
 
 ## Author
- Carmen Jimenez : https://github.com/clcoder2425/React-Professional-Portfolio.git
+ Carmen Jimenez : https://github.com/clcoder2425/Weather-Dashboard-app.git
  
  ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
