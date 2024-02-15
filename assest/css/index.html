@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER FORECAST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="DefaultScreen()">
+    <center>
+        <h1 id="Para1"> 5-DAYS WEATHER FORECAST</h1>
+    <p id="inputContainer">City: <input type="text" id="cityInput"></p>
+    <button onclick="GetInfo()">Click Me</button>
+    <h2 id="cityName">--London--</h2>
+    </center>
+   <center>
+    <h2 id = "currentDay">Current Day</h2>
+    <a href="https://openweathermap.org/img/wn/10d@2x.png" target=""><img id="weather-icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="Current Date and Weather displayed for the searched city which includes: Temperature"></a>
+    <p id="currentDay"></p>
+    <p class="minValues" id="dayMin">MinTemp:</p>
+    <p class="MaxValues" id="dayMax">MaxTemp:</p>
+
+   </center>
+    <div id="weatherContainer">
+        <div id="iconsContainer">
+            <div class="icons">
+                <p class="weather" id="Day1"></p>
+                <div class="image"><a  href="https://openweathermap.org/img/wn/10d@2x.png" target=""></a><img src= "https://openweathermap.org/img/wn/10d@2x.png" class="imgClass" id="img1" alt=""></div>
+                <p class="minValues" id="day1Min">MinTemp</p>
+                <p class="MaxValues" id="day1Max">MaxTemp</p>
+            </div>
+            <div class="icons">
+                <p class="weather" id="Day2"></p>
+                <div class="image"><a  href="https://openweathermap.org/img/wn/10d@2x.png" target=""></a><img src= "https://openweathermap.org/img/wn/10d@2x.png" class="imgClass" id="img2" alt=""></div>
+                <p class="minValues" id="day2Min">MinTemp</p>
+                <p class="MaxValues" id="day2Max">MaxTemp</p>
+            </div>
+            <div class="icons">
+                <p class="weather" id="Day3"></p>
+                <div class="image"><a  href="https://openweathermap.org/img/wn/10d@2x.png" target=""></a><img src= "https://openweathermap.org/img/wn/10d@2x.png" class="imgClass" id="img3" alt=""></div>
+                <p class="minValues" id="day3Min">MinTemp</p>
+                <p class="MaxValues" id="day3Max">MaxTemp</p>
+            </div>
+            <div class="icons">
+                <p class="weather" id="Day4"></p>
+                <div class="image"><a  href="https://openweathermap.org/img/wn/10d@2x.png" target=""></a><img src= "https://openweathermap.org/img/wn/10d@2x.png" class="imgClass" id="img4" alt=""></div>
+                <p class="minValues" id="day4Min">MinTemp</p>
+                <p class="MaxValues" id="day4Max">MaxTemp</p>
+            </div>
+            <div class="icons">
+                <p class="weather" id="Day5"></p>
+                <div class="image"><a  href="https://openweathermap.org/img/wn/10d@2x.png" target=""></a><img src= "https://openweathermap.org/img/wn/10d@2x.png" class="imgClass" id="img5" alt=""></div>
+                <p class="minValues" id="day5Min">MinTemp</p>
+                <p class="MaxValues" id="day5Max">MaxTemp</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
