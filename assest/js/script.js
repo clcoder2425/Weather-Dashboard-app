@@ -48,7 +48,7 @@ function GetInfo() {
 }
 
 function DefaultScreen() {
-    document.getElementById("cityInput").defaultValue = "London";
+    document.getElementById("cityInput").defaultValue = "Dublin";
     GetInfo();
 }
 
