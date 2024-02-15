@@ -48,7 +48,7 @@ function GetInfo() {
 
             for (let i = 1; i < 6; i++) {
                 let icon = data.list[i].weather[1].icon;
-                weatherIcon[i].src = "https://openweathermap.org/img/wn/" + icon + ".png";
+                weatherIcon[i].src = "https://openweathermap.org/img/wn/" + icon + i +".png";
             }
         })
         .catch(err => {
