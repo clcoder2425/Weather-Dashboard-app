@@ -38,7 +38,7 @@ THEN I am again presented with current and future conditions for that city`
 
 
 ## Usage
-The link for the webpage is:https://65cd1a6ca4b3551e5d8e5579--carmenjportfolio.netlify.app/
+The link for the webpage is:https://clcoder2425.github.io/Weather-Dashboard-app/
 
 ## Skills Improved
 
